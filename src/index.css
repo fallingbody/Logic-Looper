@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- SPACE ANIMATION --- */
+
+@keyframes fly {
+    from {
+        transform: translateY(0px) translateX(0px);
+    }
+
+    to {
+        transform: translateY(-2000px) translateX(-500px);
+    }
+}
+
+.animate-fly-slow {
+    animation: fly 200s linear infinite;
+}
+
+.animate-fly-mid {
+    animation: fly 150s linear infinite;
+}
+
+.animate-fly-fast {
+    animation: fly 100s linear infinite;
+}
