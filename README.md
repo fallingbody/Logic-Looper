@@ -1,6 +1,6 @@
 # Logic Looper 🧩
 
-![Logic Looper Logo](public/logo.png)
+![Logic Looper Logo](public/logo.svg)
 
 **Advanced Web-Based Puzzle & Logic Platform**
 
